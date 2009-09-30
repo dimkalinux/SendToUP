@@ -18,7 +18,7 @@ my $progress = 1;
 my $hidden = 0;
 my $password = '';
 my $version = '0.4.5';
-my $title = "Send to UP.lluga.net $version";
+my $title = "SendToUP.lluga.net $version";
 
 
 $HTTP::Request::Common::DYNAMIC_FILE_UPLOAD = 1;
@@ -237,8 +237,8 @@ __END__
 
 =head1 NAME
 
-Send To UP - a UP.lluga.net file uploader for the Unix.
-Version 0.4.1
+SendToUP - a UP.lluga.net file uploader for the Unix.
+Version 0.4.5
 
 =head1 SYNOPSIS
 
@@ -288,15 +288,5 @@ later version.
 
 On Debian GNU/Linux systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
-
-=head1 SEE ALSO
-
-Other Up.lluga.net uploaders:
-
-=over 4
-
-=item B<iSkip> L<http://forum.lluga.net/labs/iskip/>
-
-=back 4
 
 =cut
